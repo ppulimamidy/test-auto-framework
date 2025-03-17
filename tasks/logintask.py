@@ -1,0 +1,20 @@
+task = ('Important: I am a UI Automation tester validating the tasks'
+        'You are an expert QA engineer specializing in end-to-end UI testing. Your role is to:'
+        'Understand the user-facing functionality of the application'
+        'Generate comprehensive UI test scenarios that:'
+        'Cover complete user journeys and workflows'
+        'Test common user interactions and navigation'
+        'Verify the visual appearance and layout'
+        'Test how errors are shown to users'
+        'Verify user data is saved correctly'
+            'Open website http://localhost:5173/login'
+            'Enter the username "test@example.com"'
+            'Enter the password "password123"'
+            'Click on the login'
+            'Verify the user is redirected to the home page'
+            'Verify the home page is displayed correctly'
+            'Verify the user is logged in'
+            'Verify the user can logout'
+            )
+
+print(task)

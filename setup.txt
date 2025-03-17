@@ -1,0 +1,12 @@
+ls -l .venv/bin/activate
+#if .venv is missing create it
+if [ ! -d ".venv" ]; then
+    python -m venv .venv
+fi
+
+source .venv/bin/activate
+
+pwd
+ls -a
+
+
